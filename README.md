@@ -4,7 +4,7 @@ Pyhton Library Management System
 
 This system allows managing book, members, borrowing, return book, and provide both using cli interface and rest api.
 
-#### code future 
+#### code features
 
 1. add book, remove book, search book
 2. register library member
@@ -13,22 +13,24 @@ This system allows managing book, members, borrowing, return book, and provide b
 
 **installation**
 
-git clone <repository-url>
+1. `git clone <https://github.com/denishirpara260-del/lms-system>`
 
+2. `pip install -r requirements.txt`
 
-pip install -r requirements.txt
+3. `pip install requests`
 
-```
-pip install requests
+## run
 
-pip install pytest
+4. `python lms_system.py`
 
-pip install flask
-```
-## run this command 
+## run cli
 
-python lms_system.py
+5. `python cli.py`
+
+# run api
+
+6. `python library_api.py` 
 
 ### link
 
-You may be using [Api Page](http://127.0.0.1:5000/books).
+all book visible [Api Page](http://127.0.0.1:5000/books).
