@@ -21,7 +21,7 @@ This system allows managing book, members, borrowing, return book, and provide b
 
 ## run
 
-4. `python lms_system.py`
+4. `python library_system.py`
 
 ## run cli
 
